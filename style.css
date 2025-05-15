@@ -1,0 +1,33 @@
+  body {
+      background-image: url("image.jpeg")!important;
+      margin: 0;
+      color: white;
+      font-family: 'Segoe UI', sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    canvas {
+      background: #111;
+      border: 2px solid #fff;
+      box-shadow: 0 0 20px #0f0;
+    }
+
+    #score {
+      font-size: 24px;
+      margin-top: 10px;
+    }
+
+    #restart {
+      padding: 10px 20px;
+      margin-top: 10px;
+      font-size: 16px;
+      cursor: pointer;
+      background-color: rgb(51, 255, 0);
+      border: none;
+      border-radius: 5px;
+      display: none;
+    }
