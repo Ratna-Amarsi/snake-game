@@ -12,12 +12,13 @@
   <canvas id="game" width="400" height="400"></canvas>
   <div id="score">Score: 0</div>
   <button id="restart">Restart</button>
-  <div id="controls">
-  <button onclick="changeDirection('UP')">⬆️</button><br>
-  <button onclick="changeDirection('LEFT')">⬅️</button>
-  <button onclick="changeDirection('DOWN')">⬇️</button>
-  <button onclick="changeDirection('RIGHT')">➡️</button>
+<div id="controls">
+  <button class="btn" onclick="changeDirection('LEFT')">←</button>
+  <button class="btn" onclick="changeDirection('UP')">↑</button>
+  <button class="btn" onclick="changeDirection('DOWN')">↓</button>
+  <button class="btn" onclick="changeDirection('RIGHT')">→</button>
 </div>
+
 <script src="script.js"></script>
 </body>
 </html>
