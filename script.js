@@ -92,9 +92,9 @@ const snakeImg = new Image();
 
     startGame();
 
-    function changeDirection(newDir) {
-      if (newDir === "UP" && direction !== "DOWN") direction = "UP";
-      else if (newDir === "DOWN" && direction !== "UP") direction = "DOWN";
-      else if (newDir === "LEFT" && direction !== "RIGHT") direction = "LEFT";
-      else if (newDir === "RIGHT" && direction !== "LEFT") direction = "RIGHT";
-    }
+  function changeDirection(dir) {
+  if (dir === "UP" && direction !== "DOWN") direction = "UP";
+  else if (dir === "DOWN" && direction !== "UP") direction = "DOWN";
+  else if (dir === "LEFT" && direction !== "RIGHT") direction = "LEFT";
+  else if (dir === "RIGHT" && direction !== "LEFT") direction = "RIGHT";
+}
